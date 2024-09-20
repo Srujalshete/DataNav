@@ -17,7 +17,7 @@ const App = () => {
          <Navbar />
         <Routes>
           <Route path="/" element={<LandingPage />} />
-          <Route path="*" element={<LandingPage />} />
+          {/* <Route path="*" element={<LandingPage />} /> */}
          <Route path="/posts" element={<Posts />} />
            <Route path="/comments" element={<Comments />} />
            <Route path="/albums" element={<Albums />} />

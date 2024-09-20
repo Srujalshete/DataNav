@@ -4,7 +4,7 @@ const CommentsSection = () => {
   const [comments, setComments] = useState([]);
 
   useEffect(() => {
-    const jsonUrl = 'https://jsonplaceholder.typicode.com/comments'; // Fetch all comments
+    const jsonUrl = 'https://jsonplaceholder.typicode.com/comments';  
 
     fetch(jsonUrl)
       .then((response) => {

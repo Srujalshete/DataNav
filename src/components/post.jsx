@@ -3,8 +3,7 @@ import React, { useEffect, useState } from 'react';
 
 const Post = () => {
   const [posts, setPosts] = useState([]);
-
-  // Define an array of colors for borders and backgrounds
+ 
   const colors = [
     { border: 'border-indigo-500', bg: 'bg-indigo-500' },
     { border: 'border-purple-500', bg: 'bg-purple-500' },
@@ -14,7 +13,7 @@ const Post = () => {
   ];
 
   useEffect(() => {
-    const jsonUrl = 'https://jsonplaceholder.typicode.com/posts'; // Replace with your actual URL
+    const jsonUrl = 'https://jsonplaceholder.typicode.com/posts';  
 
     fetch(jsonUrl)
       .then((response) => {

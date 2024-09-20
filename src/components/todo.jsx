@@ -40,7 +40,7 @@ const RelatedTasks = () => {
                 </ul>
             </div>
 
-            {/* Second Box */}
+            
             <div className="max-w-sm p-4 shadow-md rounded-lg border-t-2 border-teal-400 dark:bg-gray-900 dark:text-white">
                 <p className="font-bold text-xl">Tasks ({midIndex + 1}-{tasks.length})</p>
                 <ul className="flex flex-col pl-1">
